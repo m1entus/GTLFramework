@@ -1,0 +1,6 @@
+framework module GTLFramework {
+  umbrella header "GTLFramework.h"
+
+  export *
+  module * { export * }
+}
