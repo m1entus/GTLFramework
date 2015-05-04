@@ -310,6 +310,7 @@
 		06310EE81AF8036D00E469E5 /* GTLYouTubeVideoTopicDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = 06310DED1AF8036D00E469E5 /* GTLYouTubeVideoTopicDetails.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
 		06310EE91AF8036D00E469E5 /* GTLYouTubeWatchSettings.h in Headers */ = {isa = PBXBuildFile; fileRef = 06310DEE1AF8036D00E469E5 /* GTLYouTubeWatchSettings.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		06310EEA1AF8036D00E469E5 /* GTLYouTubeWatchSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = 06310DEF1AF8036D00E469E5 /* GTLYouTubeWatchSettings.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		06310EF91AF8173800E469E5 /* GTLFramework.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FDE223313848173005AEFAA /* GTLFramework.m */; };
 		4F0C4FBC13CFA7E5007E5E92 /* GTLUploadParameters.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F0C4FBA13CFA7E5007E5E92 /* GTLUploadParameters.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4F0C4FBD13CFA7E5007E5E92 /* GTLUploadParameters.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F0C4FBB13CFA7E5007E5E92 /* GTLUploadParameters.m */; };
 		4F0C4FBE13CFA7E5007E5E92 /* GTLUploadParameters.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F0C4FBB13CFA7E5007E5E92 /* GTLUploadParameters.m */; };
@@ -1982,6 +1983,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				06310EF91AF8173800E469E5 /* GTLFramework.m in Sources */,
 				06310E881AF8036D00E469E5 /* GTLYouTubePlaylistItemStatus.m in Sources */,
 				06310EC61AF8036D00E469E5 /* GTLYouTubeVideoFileDetailsAudioStream.m in Sources */,
 				06310EB41AF8036D00E469E5 /* GTLYouTubeVideoAgeGating.m in Sources */,
@@ -2731,6 +2733,7 @@
 				06310CBC1AF7FF2000E469E5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		06310CBD1AF7FF2000E469E5 /* Build configuration list for PBXNativeTarget "GTLFrameworkTests" */ = {
 			isa = XCConfigurationList;
@@ -2739,6 +2742,7 @@
 				06310CBF1AF7FF2000E469E5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1DEB913E08733D840010E9CD /* Build configuration list for PBXProject "GTL" */ = {
 			isa = XCConfigurationList;

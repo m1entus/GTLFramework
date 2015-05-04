@@ -271,7 +271,7 @@ static NSString *ETagIfPresent(GTLObject *obj) {
   if (libRange.location == NSNotFound) {
     // the user agent doesn't specify the client library, so append that
     // information, and the system version
-    NSString *libVersionString = GTLFrameworkVersionString();
+    NSString *libVersionString = GTLFrameworkVersionStringFormat();
 
     NSString *systemString = GTMBridgeSystemVersionString();
 

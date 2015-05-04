@@ -46,7 +46,7 @@
 
   if (infoDict) {
 
-    NSString *binaryVersionStr = GTLFrameworkVersionString();
+    NSString *binaryVersionStr = GTLFrameworkVersionStringFormat();
 
     NSString *plistVersionStr = [infoDict valueForKey:@"CFBundleVersion"];
 

@@ -22,7 +22,7 @@ void GTLFrameworkVersion(NSUInteger* major, NSUInteger* minor, NSUInteger* relea
   if (release) *release = 0;
 }
 
-NSString *GTLFrameworkVersionString(void) {
+NSString *GTLFrameworkVersionStringFormat(void) {
   NSUInteger major, minor, release;
   NSString *libVersionString;
 

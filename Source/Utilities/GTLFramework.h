@@ -30,6 +30,6 @@
 void GTLFrameworkVersion(NSUInteger* major, NSUInteger* minor, NSUInteger* release);
 
 // Returns the version in @"a.b" or @"a.b.c" format
-NSString *GTLFrameworkVersionString(void);
+NSString *GTLFrameworkVersionStringFormat(void);
 
 #endif

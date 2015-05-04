@@ -14,6 +14,11 @@ FOUNDATION_EXPORT double GTLFrameworkVersionNumber;
 //! Project version string for GTLFramework.
 FOUNDATION_EXPORT const unsigned char GTLFrameworkVersionString[];
 
+void GTLFrameworkVersion(NSUInteger* major, NSUInteger* minor, NSUInteger* release);
+
+// Returns the version in @"a.b" or @"a.b.c" format
+NSString *GTLFrameworkVersionStringFormat(void);
+
 // In this header, you should import all the public headers of your framework using statements like #import <GTLFramework/PublicHeader.h>
 #import <GTLFramework/GTLDefines.h>
 #import <GTLFramework/GTLYouTube.h>
